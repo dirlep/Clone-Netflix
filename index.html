@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone da Netflix</title>
+    <link rel="stylesheet" href="./css/template.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="container">
+                <h3 class="titulo">WARCRAFT</h3>
+                <h4 class="subtitulo">O PRIMEIRO ENCONTRO DE DOIS MUNDOS</h4>
+                <p class="descricao">A região de Azeroth sempre viveu em paz, até a chegada dos guerreiros Orc. Com a abertura de um portal, eles puderam chegar à nova Terra com a intenção de destruir o povo inimigo.</p>
+                <div class="botoes">
+                        <a href="https://youtu.be/Dqvz8w-latE" class="trailer" target="blank">
+                        <button id="video-btn" role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button></a>
+                    <button id="modal-btn" role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                    <div id="modal-div" class="modal-info">
+                        <div class="modal-conteudo">
+                            <span class="close">&times;</span>
+                            <h2>SINOPSE E DETALHES</h2>
+                            <h4>Filme não recomendado para menores de 12 anos</h4></br>
+                            <p>A região de Azeroth sempre viveu em paz, até a chegada dos guerreiros Orc. Com a abertura de um portal, eles puderam chegar à nova Terra com a intenção de destruir o povo inimigo. Cada lado da batalha possui um grande herói, e os dois travam uma disputa pessoal, colocando em risco seu povo, sua família e todas as pessoas que amam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini01.jpg" alt="Stranger Things">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini02.jpg" alt="Casa de Papel">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini03.jpg" alt="Mundo de Sabrina">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini04.jpg" alt="True Blood">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini05.jpg" alt="Gambito da Rainha">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini06.jpg" alt="Arrow">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini07.jpg" alt="Anne with an E">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini08.jpg" alt="The 100">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini09.jpg" alt="Grey's Anatomy">
+                </div>
+                <div class="filme">
+                    <img class="box-filme" src="./img/mini10.jpg" alt="Supernatural">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/owl/setup.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
